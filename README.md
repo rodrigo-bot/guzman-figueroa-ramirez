@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <meta charset="UTF-8">
 <style>
 	head{
@@ -29,7 +28,7 @@
 	
 </head>
 <body>
-	# guzman-figueroa-ramirez
+	# Portafolia equipo GFR
 Tarea procesos de produccion @faco
 	
 </body>
