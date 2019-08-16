@@ -34,7 +34,7 @@ var trabajos = [{
     title: "Título de séptimo trabajo",
     about: "Texto simulado de descripción de séptimo trabajo"
 }, {
-    figure: "media/Bancarlos - 1.gif",
+    figure: "media/Bancarlos - 3.gif",
     alt: "Banca para 3 personas creado por una plancha de 0.3 mm",
     title: "Título de séptimo trabajo",
     about: "Texto simulado de descripción de séptimo trabajo"
