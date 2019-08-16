@@ -33,6 +33,11 @@ var trabajos = [{
     alt: "Descripción de la imagen",
     title: "Título de séptimo trabajo",
     about: "Texto simulado de descripción de séptimo trabajo"
+}, {
+    figure: "media/Bancarlos - 1.gif",
+    alt: "Banca para 3 personas creado por una plancha de 0.3 mm",
+    title: "Título de séptimo trabajo",
+    about: "Texto simulado de descripción de séptimo trabajo"
 }];
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
 $.each(trabajos, function(i, val) {
