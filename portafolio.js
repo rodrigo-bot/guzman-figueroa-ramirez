@@ -24,9 +24,9 @@ var trabajos = [{
     title: "Título de quinto trabajo",
     about: "Texto simulado de descripción de quinto trabajo"
 }, {
-    figure: "media/trabajo-06-textil.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de sexto trabajo",
+    figure: "media/Bancarlos - 1.gif",
+    alt: "Banca para 3 personas creado por una plancha de 0.3 mm",
+    title: "Bancarlos Sfeir",
     about: "Texto simulado de descripción de sexto trabajo"
 }, {
     figure: "media/trabajo-07-materiales.jpg",
