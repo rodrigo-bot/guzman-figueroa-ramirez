@@ -14,9 +14,9 @@ var trabajos = [{
     title: "Título de tercer trabajo",
     about: "Texto simulado de descripción de tercer trabajo"
 }, {
-    figure: "media/trabajo-04-editorial.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de cuarto trabajo",
+    figure: "media/trabajo-04-lamparadeparafina.jpeg",
+    alt: "Luminaria de parafina color azul frío",
+    title: "Lámpara de parafina",
     about: "Texto simulado de descripción de cuarto trabajo"
 }, {
     figure: "media/trabajo-05-agrocinta.jpeg",
