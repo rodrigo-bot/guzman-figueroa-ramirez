@@ -17,12 +17,12 @@ var trabajos = [{
     figure: "media/trabajo-04-lamparadeparafina.jpeg",
     alt: "Luminaria de parafina color azul frío",
     title: "Lámpara de parafina",
-    about: "Texto simulado de descripción de cuarto trabajo"
+    about: "Luminaria de parafina color azul frío"
 }, {
     figure: "media/trabajo-05-agrocinta.jpeg",
     alt: "Sistema sembrador de semillas controladamente espaciadas",
     title: "Agrocinta",
-    about: "Texto simulado de descripción de quinto trabajo"
+    about: "Sistema sembrador de semillas controladamente espaciadas"
 }, {
     figure: "media/trabajo-06-Bancarlos.gif",
     alt: "Banca para 3 personas creado por una plancha de 0.3 mm",
