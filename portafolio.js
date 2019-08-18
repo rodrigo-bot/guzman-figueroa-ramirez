@@ -14,15 +14,15 @@ var trabajos = [{
     title: "Título de tercer trabajo",
     about: "Texto simulado de descripción de tercer trabajo"
 }, {
-    figure: "media/trabajo-04-editorial.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de cuarto trabajo",
-    about: "Texto simulado de descripción de cuarto trabajo"
+    figure: "media/trabajo-04-lamparadeparafina.jpeg",
+    alt: "Luminaria de parafina color azul frío",
+    title: "Lámpara de parafina",
+    about: "Luminaria de parafina color azul frío"
 }, {
-    figure: "media/trabajo-05-artesania.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de quinto trabajo",
-    about: "Texto simulado de descripción de quinto trabajo"
+    figure: "media/trabajo-05-agrocinta.jpeg",
+    alt: "Sistema sembrador de semillas controladamente espaciadas",
+    title: "Agrocinta",
+    about: "Sistema sembrador de semillas controladamente espaciadas"
 }, {
     figure: "media/trabajo-06-Bancarlos.gif",
     alt: "Banca para 3 personas creado por una plancha de 0.3 mm",
