@@ -1,8 +1,8 @@
 var trabajos = [{
-    figure: "media/trabajo-01-desfile.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo"
+    figure: "media/RPC19.jpg", 
+    alt: "Máquina cosechadora de papas.",
+    title: "RCP19",
+    about: "Facilita la carga física del trabajador."
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
