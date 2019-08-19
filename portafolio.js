@@ -11,7 +11,7 @@ var trabajos = [{
 }, {
     figure: "media/Plataforma Integra.jpg",
     alt: "Descripción de la imagen",
-    title: "Plataforma web Integra",
+    title: "Plataforma web de Inclusión",
     about: "Facilita a las personas con discapacidad la entrada al mundo laboral "
 }, {
     figure: "media/trabajo-04-lamparadeparafina.jpeg",
