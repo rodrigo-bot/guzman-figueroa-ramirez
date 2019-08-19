@@ -2,7 +2,8 @@ var trabajos = [{
     figure: "media/RPC19.jpg", 
     alt: "Máquina cosechadora de papas.",
     title: "RCP19",
-    about: "Máquina cosechadora de papas."
+    about: "Máquina cosechadora de papas.",
+    url: "https://www.instagram.com/p/Bz-opy-Drgt/"
 }, {
     figure: "media/Tostador Ilko.jpg",
     alt: "Campaña para los 50 años del Tostador Ilko.",
@@ -44,5 +45,6 @@ $.each(trabajos, function(i, val) {
     var uno = '<figure><img src="' + trabajos[i].figure + '" alt="' + trabajos[i].alt + '"/></figure>';
     var dos = '<h4>' + trabajos[i].title + '</h4>';
     var tres = '<p>' + trabajos[i].about + '</p>';
-    $('#portafolio').append('<div class="item">' + uno + dos + tres + '</div>')
+    var cuatro = '<p><a href="' + trabajos[i].url + '">Ver más</a></p>';
+    $('#portafolio').append('<div class="item">' + uno + dos + tres + cuatro +'</div>')
 });
