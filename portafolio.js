@@ -1,8 +1,8 @@
 var trabajos = [{
     figure: "media/RPC19.jpg", 
-    alt: "Máquina cosechadora de papas.",
+    alt: "Herramienta manual cosechadora de papas.",
     title: "RCP19",
-    about: "Máquina cosechadora de papas.",
+    about: "Herramienta manual cosechadora de papas.",
     url: "https://www.instagram.com/p/Bz-opy-Drgt/"
 }, {
     figure: "media/Tostador Ilko.jpg",
