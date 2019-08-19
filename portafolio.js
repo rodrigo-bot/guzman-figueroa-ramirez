@@ -8,7 +8,8 @@ var trabajos = [{
     figure: "media/Tostador Ilko.jpg",
     alt: "Campaña para los 50 años del Tostador Ilko.",
     title: "Tostador Ilko",
-    about: "Campaña para los 50 años del Tostador Ilko."
+    about: "Campaña para los 50 años del Tostador Ilko.",
+    url: "http://ilkococina.com/producto?cod=1621001&nombre=tostador-estaado"
 }, {
     figure: "media/Plataforma Integra.jpg",
     alt: "Descripción de la imagen",
@@ -45,6 +46,6 @@ $.each(trabajos, function(i, val) {
     var uno = '<figure><img src="' + trabajos[i].figure + '" alt="' + trabajos[i].alt + '"/></figure>';
     var dos = '<h4>' + trabajos[i].title + '</h4>';
     var tres = '<p>' + trabajos[i].about + '</p>';
-    var cuatro = '<p><a href="' + trabajos[i].url + '">Ver más</a></p>';
+    var cuatro = '<p><a href="' + trabajos[i].url + '">Más información</a></p>';
     $('#portafolio').append('<div class="item">' + uno + dos + tres + cuatro +'</div>')
 });
