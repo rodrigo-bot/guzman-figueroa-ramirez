@@ -176,7 +176,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(3){
     background:#004375;
-    background-image:url('media/Javier.jpg');
+    background-image:url('media/Ramirez.jpg');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(3):hover{
     background:#ef6c00;
-    background-image:url('media/integrante-3b.png');
+    background-image:url('media/Ramirez2.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
