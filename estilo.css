@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
 /* 
 
 Así se escriben los comentario en CSS.
@@ -15,7 +15,7 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'DM Sans', sans-serif;
+    font-family: 'Hepta Slab', serif;
     font-weight:400;
     color:#373737;
     background-color:#FFFFFF; /*el primer par es R, segundo es G y tercero es B*/
@@ -63,7 +63,7 @@ a{
 }
 
 a:hover{
-    color:rgb(255,0,0);
+    color:#000000);
     text-decoration:underline;
 }
 
@@ -80,8 +80,8 @@ header{
 }
 
 video{
-    width:98%;
-    padding:1% 1% 0.75% 1%;
+    width:100%;
+    padding:0% 0% 0.75% 0%;
     height:auto;
 }
 
@@ -99,15 +99,15 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     flex-direction: row;
     flex-wrap: wrap;
     color:#fff /* lo mismo que #FFFFFF, simplificando pares iguales*/;
-    color:rgba(255,255,255,1);
+    color:#000000;
 }
 
 #equipo a{
-    color:rgba(255,255,255,.7);
+    color:rgba(0,0,0,.7);
 }
 
 #equipo a:hover{
-    color:rgba(255,255,255,.9);
+    color:rgba(0,0,0,.9);
 }
 
 .integrante {
@@ -115,7 +115,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:hover {
-    cursor:crosshair;
+    cursor:pointer;
 }
 
 @media screen and (orientation: landscape){
@@ -150,7 +150,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     font-size:.8rem;
     letter-spacing : 0.1rem;
     padding-top:0.25rem;
-    color:rgba(255,255,255,.75);
+    color:rgba(0,0,0,.75);
 }
 
 .integrante blockquote cite:before {
@@ -158,8 +158,8 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#F83277;
-    background-image:url('media/integrante-1a.png');
+    background-color:#d7d7d9;
+    background-image:url('media/Guzman.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -167,40 +167,40 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2){
-    background:#F93332;
-    background-image:url('media/integrante-2a.png');
+    background:#d7d7d9;
+    background-image:url('media/Figueroa.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(3){
-    background:#FA7633;
-    background-image:url('media/integrante-3a.png');
+    background:#d7d7d9;
+    background-image:url('media/Ramirez.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#c2185b;
-    background-image:url('media/integrante-1b.png');
+    background-color:#6ad6ff;
+    background-image:url('media/Guzman-2.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(2):hover{
-    background:#d32f2f;
-    background-image:url('media/integrante-2b.png');
+    background:#6ad6ff;
+    background-image:url('media/Figueroa2.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(3):hover{
-    background:#ef6c00;
-    background-image:url('media/integrante-3b.png');
+    background:#6ad6ff;
+    background-image:url('media/Ramirez2.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -252,11 +252,11 @@ AHORA VAMOS POR PORTAFOLIO
      width:100%;
      height:auto;
      margin-bottom:-4px;
-     filter: grayscale(1);
+     filter: opacity(60%);
 }
  .item:hover figure img{
-     transform:scale(2);
-     filter: grayscale(0);
+     transform:rotate(360deg);
+     filter: opacity(100%);
      transition:all ease-out 1s;
 }
  .item h4{
